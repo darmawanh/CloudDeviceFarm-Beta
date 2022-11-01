@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "aec0c285-06e8-4a55-a496-e7865f87619c",
+		"name": "device_farm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Start device Android",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/startdeviceandroid",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"startdeviceandroid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kill device Android",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/killdeviceandroid?device_port=5556",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"killdeviceandroid"
+					],
+					"query": [
+						{
+							"key": "device_port",
+							"value": "5556"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start device IOS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/startdeviceios?os_version=15.4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"startdeviceios"
+					],
+					"query": [
+						{
+							"key": "os_version",
+							"value": "15.4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Kill device IOS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/killdeviceios?device_id=5596406E-F761-47B7-9FDF-81655640D1D2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"killdeviceios"
+					],
+					"query": [
+						{
+							"key": "device_id",
+							"value": "5596406E-F761-47B7-9FDF-81655640D1D2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Start Appium server",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/startappiumserver",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"startappiumserver"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

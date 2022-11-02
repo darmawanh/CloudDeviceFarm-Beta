@@ -46,7 +46,7 @@ Create Python virtual environment
 > python3 -m venv /path/to/new/virtual/environment
 
 Clone this repo to your PC/Laptop/Server
-> git clone https://github.com/darmawanh/CloudDeviceFarmExperiment.git
+> git clone
 
 Install requirements.txt
 > pip install -r requirements.txt
